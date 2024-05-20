@@ -58,5 +58,4 @@ export class BookingController {
   async urge(@Param('id') id: number) {
     return this.bookingService.urge(id);
   }
-  
 }
